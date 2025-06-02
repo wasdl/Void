@@ -1,0 +1,98 @@
+# Python 관련 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+ENV/
+
+# 배포 관련
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 테스트 관련
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE 관련
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 데이터 파일
+*.csv
+*.tsv
+*.json
+*.parquet
+*.hdf5
+*.h5
+*.xls
+*.xlsx
+*.db
+*.sqlite3
+
+# DQM 프로세스 모델 파일
+*.pkl
+*.joblib
+*.model
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# 로그 파일
+*.log
+logs/
+scheduler_*.log
+
+# 스케줄러 생성 파일
+scheduler_*.log
+
+# 중간 처리 파일
+fast-api-pj/src/app/resources/data/raw/*
+fast-api-pj/src/app/resources/data/processed/*
+fast-api-pj/src/app/resources/evaluation_results/*
+!fast-api-pj/src/app/resources/data/raw/.gitkeep
+!fast-api-pj/src/app/resources/data/processed/.gitkeep
+
+# 모델 파일
+fast-api-pj/src/app/resources/models/*
+!fast-api-pj/src/app/resources/models/.gitkeep
+
+# 시각화 이미지
+fast-api-pj/src/app/static/images/*
+!fast-api-pj/src/app/static/images/.gitkeep
+
+# 파이프라인 상태 파일
+model_evaluation_results.pkl
+thresholds.pkl
+pattern_registry.json
+performance_metrics.json
